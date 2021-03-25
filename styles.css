@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My little own stuff things */
+
+body {
+	background-color: #E068A7;
+	font-family: 'Roboto Slab', serif;
+}
+
+header {
+	padding: 2rem 0;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+header h1 {
+	text-align: center;
+	color: #E068A7;
+	font-size: 7rem;
+}	
+
+h1 .normal {
+	
+}
+
+h1 .big {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 195%;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 0.75rem;
+	
+}
+a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	padding: 1rem;
+	display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.lorandingetje {
+	width: 100%;
+}
+
+.opheffen {
+	width: 100vw;
+	display: flex;
+    justify-content: center;
+	flex-flow: column;
+}
+
+.ophef {
+	display: flex;
+	justify-content: center;
+}
+
+.ophef p, .ophef h2 {
+	text-align: right;	
+}
+
+.ophef .nieuws {
+	margin-right: 2rem;
+	margin-top: 1.2rem;
+}
+
+.ophef p {
+	margin-bottom: 0.5rem;
+}
+.nieuws {
+	width: 30vw;	
+}
+
+.big {
+	font-weight: bold;
+	
+}
+
+.datum {
+	width: 30vw;
+	color: white;
+	font-size: 170%;
+	margin-top: 0.25rem;
+	margin-left: 2rem;
+}
+.datum p {
+	text-align: left;
+}
+
+.vogel {
+	height: 1rem;	
+}
+
+
+
+.social {
+	margin-top: 1.25rem;
+}
+	
+
+.cirkel {
+	width: 3rem;
+    height: 3rem;
+    border: solid 11px white;
+    border-radius: 3rem;
+}
+
+.cirkel-pad {
+    height: 7rem;
+    border-left: dotted 0.5rem white;
+	margin: 1rem 0 1rem 1.95rem;
+}
+
+
+
+
+
