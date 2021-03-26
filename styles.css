@@ -124,7 +124,6 @@ a:hover {
 
 
 .opheffen {
-	width: 100vw;
 	display: flex;
     justify-content: center;
 	flex-flow: column;
