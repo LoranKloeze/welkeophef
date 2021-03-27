@@ -1,3 +1,9 @@
+:root {
+	--accent-color: #C12957;
+	--main-color: #f0f6fc;
+	--nuance-color: #0d1117;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,151 +53,148 @@ table {
 	border-spacing: 0;
 }
 
-/* My little own stuff things */
-
 body {
-	background-color: #E068A7;
+	background-color: var(--accent-color);
 	font-family: 'Roboto Slab', serif;
 }
 
 header {
 	padding: 2rem 0;
-	background: white;
+	background-color: var(--main-color);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	
 }
 
 header h1 {
 	text-align: center;
-	color: #E068A7;
-	font-size: 7rem;	
+	color: var(--accent-color);
+	font-size: 7rem;
     margin-bottom: 3rem;
 
 }
-header .lead {
+
+header p {
 	text-align: center;
 	padding: 0 5rem;
-
-}	
-
-h1 .normal {
-	
-}
-
-h1 .big {
-	font-weight: bold;
+	color: var(--nuance-color);
 }
 
 h2 {
 	font-size: 195%;
-	color: white;
+	color: var(--main-color);
 	font-weight: bold;
-	margin-bottom: 0.75rem;
-	
+	margin-bottom: .75rem;
 }
+
 a {
-	color: white;
+	color: var(--main-color);
 	font-weight: bold;
 	text-decoration: none;
-	
+}
+
+p {
+	color: var(--main-color);
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
-.container {
+strong {
+	font-weight: 700;
+}
+
+main {
 	padding: 1rem;
 	display: flex;
     flex-flow: column;
     align-items: center;
 }
 
-.top-links {
+main > aside {
 	width: 100%;
 	margin-bottom: 2rem;
-}
-.top-links .combi {
 	display: flex;
-	
 }
-.top-links .icon {
+
+main svg {
 	width: 1.5rem;
+	height: 1rem;
 }
 
-
-.opheffen {
+main section:first-of-type {
 	display: flex;
     justify-content: center;
 	flex-flow: column;
 }
 
-.ophef {
+main article {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 4rem;
 }
 
-.ophef p, .ophef h2 {
-	text-align: right;	
-}
-
-.ophef .nieuws {
+main article .nieuws {
+	display: flex;
+	flex-flow: column wrap;
 	margin-right: 2rem;
 	margin-top: 1.2rem;
+	width: 30vw;
 }
 
-.ophef p {
-	margin-bottom: 0.5rem;
+main article p,
+main article h2,
+main article div:first-of-type {
+	text-align: right;
+}
+
+main article p {
+	margin-bottom: .5rem;
 	line-height: 2;
 }
-.nieuws {
-	width: 30vw;	
-}
 
-.big {
-	font-weight: bold;
-	
+main article time {
+	font-weight: 700;
 }
 
 .datum {
 	width: 30vw;
-	color: white;
+	color: var(--main-color);
 	font-size: 170%;
-	margin-top: 0.25rem;
+	margin-top: .25rem;
 	margin-left: 2rem;
 }
-.datum p {
+.datum p,
+.datum time {
 	text-align: left;
 	line-height: 1.2;
-}
-
-.vogel {
-	height: 1rem;
 }
 
 .cirkel {
 	width: 3rem;
     height: 3rem;
-    border: solid 11px white;
+    border: solid 11px var(--main-color);
     border-radius: 3rem;
 }
 
 .cirkel-pad {
-    border-left: dotted 0.5rem white;
+    border-left: dotted .5rem var(--main-color);
 	margin: 1rem 0 1rem 1.95rem;
 	flex: 1;
 }
 
-.puntje {	
+.puntje {
 	display: flex;
-    flex-direction: column;	
+    flex-direction: column;
 }
 
-
-
-
+@media (prefers-color-scheme: dark) {
+	:root {
+		--accent-color: #0d1117;
+		--main-color: #E068A7;
+		--nuance-color: #f0f6fc;
+	}
+}
 
