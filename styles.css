@@ -190,7 +190,6 @@ main article time {
     flex-direction: column;
 }
 
-/*
 @media (prefers-color-scheme: dark) {
 	:root {
 		--accent-color: #0d1117;
@@ -199,4 +198,3 @@ main article time {
 	}
 }
 
-*/
