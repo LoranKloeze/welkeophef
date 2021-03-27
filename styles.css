@@ -61,42 +61,31 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	
 }
 
 header h1 {
 	text-align: center;
 	color: #E068A7;
-	font-size: 7rem;	
+	font-size: 7rem;
     margin-bottom: 3rem;
 
 }
-header .lead {
+header p {
 	text-align: center;
 	padding: 0 5rem;
 
-}	
-
-h1 .normal {
-	
-}
-
-h1 .big {
-	font-weight: bold;
 }
 
 h2 {
 	font-size: 195%;
 	color: white;
 	font-weight: bold;
-	margin-bottom: 0.75rem;
-	
+	margin-bottom: .75rem;
 }
 a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
-	
 }
 
 a:hover {
@@ -114,14 +103,14 @@ a:hover {
 	width: 100%;
 	margin-bottom: 2rem;
 }
+
 .top-links .combi {
 	display: flex;
-	
 }
+
 .top-links .icon {
 	width: 1.5rem;
 }
-
 
 .opheffen {
 	display: flex;
@@ -136,7 +125,7 @@ a:hover {
 }
 
 .ophef p, .ophef h2 {
-	text-align: right;	
+	text-align: right;
 }
 
 .ophef .nieuws {
@@ -145,23 +134,18 @@ a:hover {
 }
 
 .ophef p {
-	margin-bottom: 0.5rem;
+	margin-bottom: .5rem;
 	line-height: 2;
 }
 .nieuws {
-	width: 30vw;	
-}
-
-.big {
-	font-weight: bold;
-	
+	width: 30vw;
 }
 
 .datum {
 	width: 30vw;
 	color: white;
 	font-size: 170%;
-	margin-top: 0.25rem;
+	margin-top: .25rem;
 	margin-left: 2rem;
 }
 .datum p {
@@ -181,12 +165,12 @@ a:hover {
 }
 
 .cirkel-pad {
-    border-left: dotted 0.5rem white;
+    border-left: dotted .5rem white;
 	margin: 1rem 0 1rem 1.95rem;
 	flex: 1;
 }
 
-.puntje {	
+.puntje {
 	display: flex;
     flex-direction: column;	
 }
