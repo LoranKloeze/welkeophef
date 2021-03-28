@@ -6,22 +6,32 @@
     const ophefSectie = document.querySelector('section.opheffen');
 
     ophefjesJson.forEach(ophefData => {
-      let ophefHtml = template;
-
       const datum = new Date(ophefData.datum)
-      const weekdag = datum.toLocaleDateString('nl', {weekday: 'long'})
-      const datumCijfers = datum.toLocaleDateString('nl', {day: '2-digit', month: '2-digit', year: 'numeric'})
+      const weekdag = datum.toLocaleDateString('nl', { weekday: 'long' })
+      const datumCijfers = datum.toLocaleDateString('nl', { day: '2-digit', month: '2-digit', year: 'numeric' })
+      const teVervangen = {
+        titel: ophefData.titel,
+        inhoud: ophefData.inhoud,
+        twitterLink: ophefData.twitterLink,
+        twitterLabel: ophefData.twitterLabel,
+        weekdag: weekdag,
+        datumCijfers: datumCijfers,
+        datumISO: datum.toISOString()
+      }
 
-      ophefHtml = ophefHtml.replace(/{{titel}}/g, ophefData.titel);
-      ophefHtml = ophefHtml.replace(/{{inhoud}}/g, ophefData.inhoud);
-      ophefHtml = ophefHtml.replace(/{{twitterLink}}/g, ophefData.twitterLink);
-      ophefHtml = ophefHtml.replace(/{{twitterLabel}}/g, ophefData.twitterLabel);
-      ophefHtml = ophefHtml.replace(/{{datumDag}}/g, weekdag);
-      ophefHtml = ophefHtml.replace(/{{datumLeesbaar}}/g, datumCijfers);
-      ophefHtml = ophefHtml.replace(/{{datumISO}}/g, datum.toISOString());
+      ophefSectie.innerHTML += vulTemplate(template, teVervangen)
 
-      ophefSectie.innerHTML += ophefHtml;
     });
+  }
+
+  function vulTemplate(template, tokens) {
+    let html = template;
+
+    Object.keys(tokens).forEach(token => {
+      const re = new RegExp(`{{${token}}}`, 'g');
+      html = html.replace(re, tokens[token]);
+    })
+    return html;
   }
 
   window.addEventListener("DOMContentLoaded", main);
