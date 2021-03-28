@@ -2,7 +2,7 @@
 
   async function main() {
     const ophefjesJson = await (await window.fetch('/ophefjes.json')).json();
-    const template = await (await window.fetch('/_article.html')).text();
+    const template = await (await window.fetch('/article.html')).text();
     const ophefSectie = document.querySelector('section.opheffen');
 
     ophefjesJson.forEach(ophefData => {
