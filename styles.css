@@ -113,11 +113,22 @@ main {
     align-items: center;
 }
 
-main > aside {
+ main > aside {
+	display: flex;
 	width: 100%;
-	margin-bottom: 2rem;
+	flex-direction: column;
+	margin-bottom: 1.5rem;
+}
+
+main > aside > div {
+	width: 100%;
+	margin-bottom: 0.5rem;
 	display: flex;
 }
+main > aside > div > svg {
+	margin-right: 0.25rem;
+}
+
 
 main svg {
 	width: 1.5rem;
