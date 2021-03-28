@@ -172,6 +172,10 @@ main article time {
 	line-height: 1.2;
 }
 
+.datum .weekdag {
+	text-transform: capitalize;
+}
+
 .cirkel {
 	width: 3rem;
     height: 3rem;
