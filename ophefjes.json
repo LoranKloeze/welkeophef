@@ -1,5 +1,13 @@
 [
   {
+    "id": 4,
+    "titel": "Kerkgangers vallen journalisten aan",
+    "inhoud": "Op Urk en in Krimpen aan den IJssel zijn journalisten aangevallen door kerkgangers. In Krimpen werd een tv-verslaggever aangevallen en op Urk werd een verslaggever aangereden, in beide gevallen door kerkgangers. Journalisten gingen erheen omdat er kritiek op kerken is wegens een ruime openstelling in coronatijd.",
+    "twitterLink": "https://twitter.com/telegraaf/status/1376099879211167745",
+    "twitterLabel": "@telegraaf",
+    "datum": "2021-03-28"
+  },
+  {
     "id": 3,
     "titel": "Ollongren lekt verkenningsnotities",
     "inhoud": "Verkenner Ollongren lekte gevoelige informatie over de formatie door over het Binnenhof te lopen met een papier in de hand waarvan de inhoud makkelijk was te fotograferen. Onder meer Omtzigt moest het in die notities ontgelden.",
@@ -10,7 +18,7 @@
   {
     "id": 2,
     "titel": "Bilal Wahib aangehouden wegens zedendelict",
-    "inhoud": "Acteur Bilal Wahib is door de politie aangehouden omdat hij live op Instagram een minderjarige jongen had aangespoord zijn geslachtsdeel te laten zien voor 17.000 euro.</p>",
+    "inhoud": "Acteur Bilal Wahib was door de politie aangehouden omdat hij live op Instagram een minderjarige jongen had aangespoord zijn geslachtsdeel te laten zien voor 17.000 euro.</p>",
     "twitterLink": "https://twitter.com/AT5/status/1374655438306820096",
     "twitterLabel": "@AT5",
     "datum": "2021-03-24"
@@ -18,7 +26,7 @@
   {
     "id": 1,
     "titel": "Testophef",
-    "inhoud": "Dit is de oudste ophef",
+    "inhoud": "Dit was de oudste ophef",
     "twitterLink": "https://www.twitter.com/lorankloeze",
     "twitterLabel": "@lorankloeze",
     "datum": "2021-03-23"
