@@ -253,10 +253,6 @@ main article time {
 
 /* Desktop + Dark mode */
 @media (min-width: 45em) and (prefers-color-scheme: dark) {
-	main article .nieuws p {
-		color: var(--nuance-color);
-	}
-
 	.datum time {
 		color: var(--nuance-color);
 	}
@@ -268,6 +264,10 @@ main article time {
 		--accent-color: #0d1117;
 		--main-color: #E068A7;
 		--nuance-color: #f0f6fc;
+	}
+
+	main article .nieuws p {
+		color: var(--nuance-color);
 	}
 }
 
