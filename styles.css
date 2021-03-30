@@ -215,12 +215,14 @@ main article time {
     margin-left: auto;
 }
 
+/* niet-mini mobile */
 @media (min-width: 20em) {
 	.puntje {
 		display: flex;
 	}
 }
 
+/* Desktop */
 @media (min-width: 45em) {
 	header p {
 		padding: 0 5vw;
@@ -245,8 +247,22 @@ main article time {
 		margin-left: 2rem;
 		order: 0;
 	}
+
+
 }
 
+/* Desktop + Dark mode */
+@media (min-width: 45em) and (prefers-color-scheme: dark) {
+	main article .nieuws p {
+		color: var(--nuance-color);
+	}
+
+	.datum time {
+		color: var(--nuance-color);
+	}
+}
+
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
 	:root {
 		--accent-color: #0d1117;
