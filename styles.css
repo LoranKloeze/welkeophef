@@ -140,8 +140,9 @@ main svg {
 
 main section:first-of-type {
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 	flex-flow: column;
+	width: 100%;
 }
 
 main article {
@@ -154,7 +155,7 @@ main article {
 main article .nieuws {
 	display: flex;
 	flex-flow: column wrap;
-	width: 70vw;
+	width: 100vw;
 }
 
 main article p {
@@ -216,9 +217,13 @@ main article time {
 }
 
 /* niet-mini mobile */
-@media (min-width: 20em) {
+@media (min-width: 25em) {
 	.puntje {
 		display: flex;
+	}
+
+	main article .nieuws {
+		width: 70vw;
 	}
 }
 
@@ -226,6 +231,10 @@ main article time {
 @media (min-width: 45em) {
 	header p {
 		padding: 0 5vw;
+	}
+
+	main section:first-of-type {
+		width: auto;
 	}
 
 	main article .nieuws {
