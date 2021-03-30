@@ -209,10 +209,42 @@ main article time {
 }
 
 .puntje {
-	display: flex;
+	display: none;
     flex-direction: column;
     max-width: 25vw;
     margin-left: auto;
+}
+
+@media (min-width: 20em) {
+	.puntje {
+		display: flex;
+	}
+}
+
+@media (min-width: 45em) {
+	header p {
+		padding: 0 5vw;
+	}
+
+	main article .nieuws {
+		margin-right: 2rem;
+		margin-top: 1.2rem;
+		width: 30vw;
+	}
+
+	main article p,
+	main article h2,
+	main article div:first-of-type {
+		text-align: right;
+	}
+
+	.datum {
+		width: 30vw;
+		flex-flow: column nowrap;
+		font-size: 170%;
+		margin-left: 2rem;
+		order: 0;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
