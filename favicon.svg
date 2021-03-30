@@ -1,0 +1,17 @@
+<svg height="100" width="100">
+  <style>
+    circle {
+      fill: #f0f6fc;
+      stroke: #C12957;
+      stroke-width: 10px;
+    }
+    @media (prefers-color-scheme: dark) {
+      circle {
+        fill: #0d1117;
+        stroke: #E068A7;
+	    stroke-width: 10px;
+      }
+    }
+  </style>
+  <circle cx="50" cy="50" r="35" />
+</svg>
