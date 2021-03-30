@@ -1,8 +1,8 @@
 (() => {
 
   async function main() {
-    const ophefjesJson = await (await window.fetch('/ophefjes.json')).json();
-    const template = await (await window.fetch('/article.tmpl')).text();
+    const ophefjesJson = await (await window.fetch('./ophefjes.json')).json();
+    const template = await (await window.fetch('./article.tmpl')).text();
     const ophefSectie = document.querySelector('section.opheffen');
 
     ophefjesJson.forEach(ophefData => {

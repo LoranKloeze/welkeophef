@@ -68,17 +68,20 @@ header {
 }
 
 header h1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 	text-align: center;
 	color: var(--accent-color);
 	font-size: 7rem;
     margin-bottom: 3rem;
-
 }
 
 header p {
 	text-align: center;
-	padding: 0 5rem;
+	padding: 0 1rem;
 	color: var(--nuance-color);
+	max-width: 40rem;
 }
 
 h2 {
@@ -113,7 +116,7 @@ main {
     align-items: center;
 }
 
- main > aside {
+main > aside {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
@@ -143,6 +146,7 @@ main section:first-of-type {
 
 main article {
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 	margin-bottom: 4rem;
 }
@@ -150,15 +154,7 @@ main article {
 main article .nieuws {
 	display: flex;
 	flex-flow: column wrap;
-	margin-right: 2rem;
-	margin-top: 1.2rem;
-	width: 30vw;
-}
-
-main article p,
-main article h2,
-main article div:first-of-type {
-	text-align: right;
+	width: 70vw;
 }
 
 main article p {
@@ -171,12 +167,24 @@ main article time {
 }
 
 .datum {
-	width: 30vw;
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+	font-size: 90%;
 	color: var(--main-color);
-	font-size: 170%;
 	margin-top: .25rem;
-	margin-left: 2rem;
+	margin-bottom: .25rem;
+	order: -1;
 }
+
+.datum p {
+	margin-right: .5rem;
+}
+
+.datum p::after {
+	content: ",";
+}
+
 .datum p,
 .datum time {
 	text-align: left;
@@ -203,6 +211,8 @@ main article time {
 .puntje {
 	display: flex;
     flex-direction: column;
+    max-width: 25vw;
+    margin-left: auto;
 }
 
 @media (prefers-color-scheme: dark) {
