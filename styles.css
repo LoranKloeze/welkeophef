@@ -4,6 +4,19 @@
 	--nuance-color: #0d1117;
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--accent-color: #0d1117;
+		--main-color: #E068A7;
+		--nuance-color: #f0f6fc;
+	}
+
+	main article .nieuws p {
+		color: var(--nuance-color);
+	}
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -228,13 +241,9 @@ main article time {
 }
 
 /* Desktop */
-@media (min-width: 45em) {
+@media (min-width: 50em) {
 	header p {
 		padding: 0 5vw;
-	}
-
-	main section:first-of-type {
-		width: auto;
 	}
 
 	main article .nieuws {
@@ -247,6 +256,7 @@ main article time {
 	main article h2,
 	main article div:first-of-type {
 		text-align: right;
+		max-width: 50em;
 	}
 
 	.datum {
@@ -257,26 +267,14 @@ main article time {
 		order: 0;
 	}
 
-
+	.puntje {
+		margin-left: 0;
+	}
 }
 
 /* Desktop + Dark mode */
-@media (min-width: 45em) and (prefers-color-scheme: dark) {
+@media (min-width: 50em) and (prefers-color-scheme: dark) {
 	.datum time {
 		color: var(--nuance-color);
 	}
 }
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-	:root {
-		--accent-color: #0d1117;
-		--main-color: #E068A7;
-		--nuance-color: #f0f6fc;
-	}
-
-	main article .nieuws p {
-		color: var(--nuance-color);
-	}
-}
-
