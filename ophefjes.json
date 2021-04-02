@@ -1,5 +1,13 @@
 [
-   {
+  {
+    "id": 7,
+    "titel": "Rutte blijft na 'Positie Omtzigt, functie elders'",
+    "inhoud": "Na een periode van veel politiek vuurwerk over het feit dat de naam van Pieter Omtzigt verscheen in een gelekte verkenningsnotitie, houdt de Tweede Kamer Mark Rutte in leven als minister-president. Dit gebeurte ternauwenood nadat 72 leden een motie van wantrouwen steunden en alle leden behalve die van de VVD een motie van afkeur steunden. Rutte besloot daarop voldoende draagvlak te ervaren om door te gaan.",
+    "twitterLink": "https://twitter.com/RTLnieuws/status/1377815584168099845",
+    "twitterLabel": "@RTLnieuws",
+    "datum": "2021-04-01"
+  },
+  {
     "id": 6,
     "titel": "Debat over mislukte formatie mislukt",
     "inhoud": "Op 25 maart 2021 heeft Ollongren per ongeluk notities uit de lopende formatie gelekt. Hierover moest nog steeds een debat gevoerd worden. In de Tweede Kamer werd vandaag een 'debat' gevoerd over wanneer dit debat moest plaatsvinden waarbij Wilders opriep dat alle gespreksverslagen, appjes en mailtjes boven water moest komen. Rutte was hier fel op tegen. Eindresultaat: een debat over een debat dat later gevoerd gaat worden.",
@@ -48,6 +56,3 @@
     "datum": "2021-03-23"
   }
 ]
-
-
-
