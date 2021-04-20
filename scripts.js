@@ -25,7 +25,7 @@
 
     });
 
-    const hash = document.location.hash;
+    const hash = document.location.hash || null;
     const activeElement = document.querySelector(hash);
 
     if(activeElement) {
@@ -34,6 +34,18 @@
         inline: 'center'
       });
     }
+
+    const linkjes = document.querySelectorAll('.copy-link')
+    linkjes.forEach(el => {
+      el.addEventListener('click', e => {
+        e.preventDefault();
+
+        const newHash = el.getAttribute('data-url');
+
+        document.location.hash = newHash;
+        navigator.clipboard.writeText(`${window.location.origin}${window.location.pathname}#${newHash}`)
+      })
+    })
   }
 
   function vulTemplate(template, tokens) {
