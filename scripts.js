@@ -24,6 +24,16 @@
       ophefSectie.innerHTML += vulTemplate(template, teVervangen)
 
     });
+
+    const hash = document.location.hash;
+    const activeElement = document.querySelector(hash);
+
+    if(activeElement) {
+      activeElement.scrollIntoView({
+        block: 'center',
+        inline: 'center'
+      });
+    }
   }
 
   function vulTemplate(template, tokens) {
