@@ -9,6 +9,7 @@
       const datum = new Date(ophefData.datum)
       const weekdag = datum.toLocaleDateString('nl', { weekday: 'long' })
       const datumCijfers = datum.toLocaleDateString('nl', { day: '2-digit', month: '2-digit', year: 'numeric' })
+      const ophefId = `${ophefData.titel.substring(0, 20).toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll("'", "").replaceAll('"', '').replace(/-\s*$/, "")}-${ophefData.id}`
       const teVervangen = {
         titel: ophefData.titel,
         inhoud: ophefData.inhoud,
@@ -16,7 +17,8 @@
         twitterLabel: ophefData.twitterLabel,
         weekdag: weekdag,
         datumCijfers: datumCijfers,
-        datumISO: datum.toISOString()
+        datumISO: datum.toISOString(),
+        ophefId: ophefId
       }
 
       ophefSectie.innerHTML += vulTemplate(template, teVervangen)
