@@ -1,4 +1,48 @@
-[
+[ {
+    "id": 11,
+    "titel": "Antisemitische spotprent Volkskrant veroorzaakt verontwaardiging",
+    "inhoud": "De Volkskrant heeft vanochtend een 'karikaturale illustratie' van Maurice de Hond geplaatst. De prent lijkt erg op de antisemitische spotprent waarin joden neergezet worden als poppenspelers die via touwtjes invloed uitoefenen bij maatschappelijke instituties. Toen voormalig PvdA-leider Lodewijk Asscher sprak van een 'hufterige karikatuur', ging het los op Twitter. De Volskrant heeft z'n excuses aangeboden.",
+    "twitterLink": "https://twitter.com/LodewijkA/status/1384035194974314499",
+    "twitterLabel": "@LodewijkA",
+    "datum": "2021-04-19"
+  },{
+    "id": 10,
+    "titel": "Petitie tegen Oranjefeest Radio 538 300.000 keer ondertekend",
+    "inhoud": "Een arts van het Amphia Ziekenhuis in Breda heeft een petitie gestart om te voorkomen dat het Oranjefeest van Radio 538 doorgaat. Het feest vindt plaats op 500 meter afstand van het ziekenhuis. De petitie is door meer dan 300.000 mensen ondertekend en ondervindt ook op social media veel steun. De website petities.nl was regelmatig slecht bereikbaar door de grote hoeveel ondertekeningen.",
+    "twitterLink": "https://twitter.com/RTLnieuws/status/1383916814858481669",
+    "twitterLabel": "@RTLnieuws",
+    "datum": "2021-04-18"
+  },{
+    "id": 9,
+    "titel": "Webshop Allekabels.nl lekt data 3,6 miljoen mensen",
+    "inhoud": "Er is veel ophef over een datalek van de webshop Allekabels.nl waarbij de gegevens van 3,6 miljoen mensen op straat is komen te liggen. Vooral de reactie van de webshop zelf wordt genadeloos gefileerd door tech savvy mensen op Twitter. Veel mensen dreigen hun account op te zeggen bij Allekabels.nl. De webshop is de gehele dag slecht bereikbaar geweest. Wat daar de oorzaak van is, is niet bekend.",
+    "twitterLink": "https://twitter.com/RTLnieuws/status/1382683328751542273",
+    "twitterLabel": "@RTLnieuws",
+    "datum": "2021-04-15"
+  },{
+    "id": 8,
+    "titel": "D66 Tweede Kamerlid Smeets beschuldigd van MeToo-gedrag",
+    "inhoud": "Op Twitter en andere sociale media beschuldigen enkele jonge mannen Sidney Smeets van seksuele intimidatie. Deze intimidatie zou plaats hebben gevonden via privéberichten. Het bestuur van D66 laat weten een onderzoek te starten en fractieleider Kaag stelt dat er duidelijke normen zijn hoe men zich dient te gedragen binnen de partij. Smeets zelf geeft aan geschrokken te zijn en enkele dagen rust te nemen.",
+    "twitterLink": "https://twitter.com/geenstijl/status/1382290985296801792",
+    "twitterLabel": "@geenstijl",
+    "datum": "2021-04-14"
+  },
+  {
+    "id": 7,
+    "titel": "Rutte blijft na 'Positie Omtzigt, functie elders'",
+    "inhoud": "Na een periode van veel politiek vuurwerk over het feit dat de naam van Pieter Omtzigt verscheen in een gelekte verkenningsnotitie, houdt de Tweede Kamer Mark Rutte in leven als minister-president. Dit gebeurde ternauwenood nadat 72 leden een motie van wantrouwen steunden en alle leden behalve die van de VVD een motie van afkeur steunden. Rutte besloot daarop voldoende draagvlak te ervaren om door te gaan.",
+    "twitterLink": "https://twitter.com/RTLnieuws/status/1377815584168099845",
+    "twitterLabel": "@RTLnieuws",
+    "datum": "2021-04-01"
+  },
+  {
+    "id": 6,
+    "titel": "Debat over mislukte formatie mislukt",
+    "inhoud": "Op 25 maart 2021 heeft Ollongren per ongeluk notities uit de lopende formatie gelekt. Hierover moest nog steeds een debat gevoerd worden. In de Tweede Kamer werd vandaag een 'debat' gevoerd over wanneer dit debat moest plaatsvinden waarbij Wilders opriep dat alle gespreksverslagen, appjes en mailtjes boven water moest komen. Rutte was hier fel op tegen. Eindresultaat: een debat over een debat dat later gevoerd gaat worden.",
+    "twitterLink": "https://twitter.com/telegraaf/status/1377315305278599173",
+    "twitterLabel": "@telegraaf",
+    "datum": "2021-03-31"
+  },
   {
     "id": 5,
     "titel": "Journalisten worden SS'ers genoemd",
@@ -40,6 +84,3 @@
     "datum": "2021-03-23"
   }
 ]
-
-
-
