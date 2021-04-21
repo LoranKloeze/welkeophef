@@ -40,7 +40,7 @@
       el.addEventListener('click', e => {
         e.preventDefault();
 
-        const newHash = el.getAttribute('data-url');
+        const newHash = el.getAttribute('href');
 
         document.location.hash = newHash;
         navigator.clipboard.writeText(`${window.location.origin}${window.location.pathname}#${newHash}`)

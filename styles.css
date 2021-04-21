@@ -161,13 +161,13 @@ main .tweetbird {
 	height: 1rem;
 }
 
-main .copy-link {
+main .copy-link svg {
 	width: 1.5rem;
 	height: 1rem;
 	cursor: pointer;
 }
 
-main .copy-link:focus {
+main .copy-link:focus svg {
 	animation-name: wink-animation;
 	animation-duration: .5s;
 	outline: none;
