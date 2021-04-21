@@ -17,7 +17,7 @@
 	}
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,6 +64,16 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
 
 body {
@@ -146,9 +156,39 @@ main > aside > div > svg {
 }
 
 
-main svg {
+main .tweetbird {
 	width: 1.5rem;
 	height: 1rem;
+}
+
+main .copy-link svg {
+	width: 1.5rem;
+	height: 1rem;
+	cursor: pointer;
+}
+
+main .copy-link:focus svg {
+	animation-name: wink-animation;
+	animation-duration: .5s;
+	outline: none;
+}
+
+@keyframes wink-animation {
+	0% {
+		transform: scale(1) rotate(0deg);
+	}
+
+	33% {
+		transform: scale(1.1) rotate(-10deg);
+	}
+
+	66% {
+		transform: scale(1.1) rotate(10deg);
+	}
+
+	100% {
+		transform: scale(1) rotate(0deg);
+	}
 }
 
 main section:first-of-type {
