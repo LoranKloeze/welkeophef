@@ -43,7 +43,7 @@
         const newHash = el.getAttribute('href');
 
         document.location.hash = newHash;
-        navigator.clipboard.writeText(`${window.location.origin}${window.location.pathname}#${newHash}`)
+        navigator.clipboard.writeText(`${window.location.origin}${window.location.pathname}${newHash}`)
       })
     })
   }
