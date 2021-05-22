@@ -281,7 +281,7 @@ main article time {
 }
 
 /* Desktop */
-@media (min-width: 50em) {
+@media (min-width: 65em) {
 	header p {
 		padding: 0 5vw;
 	}
@@ -313,7 +313,7 @@ main article time {
 }
 
 /* Desktop + Dark mode */
-@media (min-width: 50em) and (prefers-color-scheme: dark) {
+@media (min-width: 65em) and (prefers-color-scheme: dark) {
 	.datum time {
 		color: var(--nuance-color);
 	}
