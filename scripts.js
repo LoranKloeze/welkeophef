@@ -12,7 +12,6 @@
       const ophefId = `${ophefData.titel.substring(0, 20).toLowerCase().replaceAll(' ', '-').replaceAll('.', '-').replaceAll("'", "").replaceAll('"', '').replace(/-\s*$/, "")}-${ophefData.id}`
       const teVervangen = {
         titel: ophefData.titel,
-        inhoud: ophefData.inhoud,
         twitterLink: ophefData.twitterLink,
         twitterLabel: ophefData.twitterLabel,
         weekdag: weekdag,
